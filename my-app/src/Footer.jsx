@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer>
-            <p>&copy; {new Date().getFullYear()} Psycode Lab's</p>
+            <p>&copy; {new Date().getFullYear()} Psycode Lab&apos;s</p>
         </footer>
     );
 }
