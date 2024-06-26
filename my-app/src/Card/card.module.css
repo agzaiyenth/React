@@ -1,3 +1,35 @@
 .card{
+    max-width: 50%;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.388);
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    border-radius: 450px;
+    max-width: 50%;
+}
+
+.card h2{
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px 0px;
+    margin-bottom: 10px;
+}
+.card hr{
+    width: 100%;
+    margin: 0;
+    color: hsla(0, 0%, 0%, 0.447);
+}
+
+.card p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: justify;
     
 }
