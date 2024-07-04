@@ -9,7 +9,7 @@ function App() {
 
     <>
     <Footer>
-      
+      check
     </Footer>
     
     <Card name="Agziyenth" profilePic="../src/assets/20230746.jpg"></Card>
