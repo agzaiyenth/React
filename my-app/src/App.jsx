@@ -8,7 +8,9 @@ function App() {
   return(
 
     <>
-    <Footer></Footer>
+    <Footer>
+      
+    </Footer>
     
     <Card name="Agziyenth" profilePic="../src/assets/20230746.jpg"></Card>
     <Card name="Asra Ameer" profilePic="../src/assets/golden.retriever.clubs_1718805598217.jpeg"></Card>
