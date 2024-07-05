@@ -8,12 +8,10 @@ function App() {
   return(
 
     <>
-    <Footer>
-      check
-    </Footer>
+    <Footer></Footer>
     
-    <Card name="Agziyenth" profilePic="../src/assets/20230746.jpg"></Card>
-    <Card name="Asra Ameer" profilePic="../src/assets/golden.retriever.clubs_1718805598217.jpeg"></Card>
+    <Card name="Agzaiyenth" profilePic="../src/assets/20230746.jpg"></Card>
+    <Card name="Ameer Ameer" profilePic="../src/assets/golden.retriever.clubs_1718805598217.jpeg"></Card>
     <Header></Header>
     </>
     
