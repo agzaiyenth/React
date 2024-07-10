@@ -1,5 +1,4 @@
-
-import Card from "./Card/Card";
+import Date from "./Date/Date";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -9,9 +8,7 @@ function App() {
 
     <>
     <Footer></Footer>
-    
-    <Card name="Agzaiyenth" profilePic="../src/assets/20230746.jpg"></Card>
-    <Card name="Ameer Ameer" profilePic="../src/assets/golden.retriever.clubs_1718805598217.jpeg"></Card>
+   <Date></Date>
     <Header></Header>
     </>
     
