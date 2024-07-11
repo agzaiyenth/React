@@ -1,34 +1,43 @@
-import {useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
 
 
-function Date(){
+function DateTime(){
     const [currentdate,setCurrentdate]=useState(new Date());
+
     useEffect(()=>{
         const inter=setInterval(()=>{
             setCurrentdate(new Date());
         },1000);
+
     return ()=> {
         clearInterval(inter);
     }
     
-    },[]
-);
+    },[]);
 
+    function padding(number){
+        return ( number < 10 ? "0" : "") + number;
+    }
 function formatTime(){
     let hours=currentdate.getHours();
     const mins=currentdate.getMinutes();
     const second=currentdate.getSeconds();
     const emri=hours>=12 ? "PM":"AM";
     hours=hours%12||12;
-    return `${hours}:${mins}:${second} ${emri}`
+
+
+    return `${padding(hours)}:${padding(mins)}:${padding(second)} ${emri}`
 
 }
+
     
     return( 
-
-        <h1>Todays date is {formatTime}</h1>
+        <div>
+            <h1>Time Now is {formatTime()}</h1>
+        </div>
+        
 
     );
 
 }
-export default Date;
+export default DateTime;
