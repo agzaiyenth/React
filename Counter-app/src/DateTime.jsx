@@ -33,7 +33,7 @@ function formatTime(){
     
     return( 
         <div>
-            <h1>Time Now is {formatTime()}</h1>
+            <h1>Time : {formatTime()}</h1>
         </div>
         
 
